@@ -17,10 +17,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | 3 | Replace values divisible by 3 with string "ping"  | [1,2,3,4,5]  | [1,2,"ping",4,5,"ping"]  |
 | 4 | Replace values divisible by 5 with string "pong"  | [1,2,3,4,5]  | [1,2,"ping",4,"pong","ping"]  |
 | 5 | Replace values divisible by 3 & 5 with string "pingpong"  | [1,2,3,4,5...,15]  | [1,2,"ping",4,5,"ping"...,"pingpong"]  |
-| 6 | Reset form and hide result to allow cycling process without reloading the page | click on button or input | hide result|
-| 7 | clear arrays and var's | click on button or input | userInput; , numbers [];|
-| 8 | input gathering in HTML | 5 | 5|
-| 9 | manipulate DOM by adding li with index val | [1,2,"ping"...] | <li>1 <br> <li>2 <br><li>"ping" |
+| 6 | Use HTML form to collect input | | |
+| 7 | Reset form and hide result to allow cycling process without reloading the page | click on button or input | hide result|
+| 8 | clear arrays and var's | click on button or input | userInput; , numbers [];|
+| 9 | input gathering in HTML | 5 | 5|
+| 10 | manipulate DOM by adding li with index val | [1,2,"ping"...] | <li>1 <br> <li>2 <br><li>"ping" |
 
 ## Setup/Installation Requirements
 
