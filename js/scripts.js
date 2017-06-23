@@ -4,6 +4,14 @@ var userInput;
 var multiple;
 var outputs = [];
 
+var formReset = (function () {
+  numbers = [];
+  outputs = [];
+  $(".result ul").empty();
+  $(".result").hide();
+})
+
+
 var pingPong = (function () {
 
   for (var i = 1; i <= userInput; i++) {
@@ -23,6 +31,12 @@ var pingPong = (function () {
         outputs [index] = "ping"
       }
     }
+    $(".result").show();
+
+    outputs.forEach(function(output) {
+          $(".result ul").append("<li>" + output + "</li>");
+    })
+
 })
 
 
@@ -32,6 +46,11 @@ var pingPong = (function () {
 
 //front-end
 $(document).ready(function (){
+
+  $(".userInput button, input#userInput").click(function () {
+    formReset();
+  })
+
   $(".userInput form").submit(function (event) {
     event.preventDefault();
     console.log("post submit");
@@ -39,6 +58,7 @@ $(document).ready(function (){
     userInput = $("input#userInput").val();
   console.log(userInput);
   pingPong();
+
 
 
   })
