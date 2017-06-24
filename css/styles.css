@@ -20,3 +20,12 @@ ul {
 label {
   padding-right: 10px;
 }
+
+.bar p {
+  background-color: white;
+  margin-top: 40px;
+}
+
+.result {
+  padding: 40px;
+}
