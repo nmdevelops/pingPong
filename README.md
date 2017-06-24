@@ -34,22 +34,24 @@ A web application that takes a number from a user and returns a range of numbers
 * _Enter a number in the input field_
 * _Marvel at the complexity_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_It's a webpage, the user interface is limited to entering numbers and seeing them output with string substitutions per the aforementioned behaviors._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs._
 
 ## Support and contact details
 
-_Please email {support} if you run into any issues or have questions, ideas or concerns.  We encourage you to contact us with suggestions or contributions to the code._
+_Please email nm.develops@gmail.com if you run into any issues or have questions, ideas or concerns.  I encourage you to contact me with suggestions or contributions to the code._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+*_Bootstrap_
+*_javaScript_
+*_jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2017 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Nathan E. M. Mayer_**
