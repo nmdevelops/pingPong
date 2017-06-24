@@ -1,12 +1,17 @@
-# _{Application Name}_
+# _Ping Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A generally pointless website, utilizing looping and arrays, 6-23-2017_
 
-#### By _**{List of contributors}**_
+#### By _**Nathan E. M. Mayer**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+
+1. Numbers divisible by 3 are replaced with "ping"
+2. Numbers divisible by 5 are replaced with "pong"
+3. Numbers divisible by 15 are replaced with "pingpong"
+4. A user should be able to enter a new number and see new results over and over again.
 
 ## Specifications
 
@@ -25,11 +30,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open the site in a web browser_
+* _Enter a number in the input field_
+* _Marvel at the complexity_
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 

@@ -1,3 +1,22 @@
 .result {
   display: none;
 }
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+body {
+  background-color: green;
+}
+
+ul {
+  color: white;
+}
+
+label {
+  padding-right: 10px;
+}
