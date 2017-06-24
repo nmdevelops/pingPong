@@ -46,9 +46,9 @@ _Please email nm.develops@gmail.com if you run into any issues or have questions
 
 ## Technologies Used
 
-*_Bootstrap_
-*_javaScript_
-*_jQuery_
+* _Bootstrap_
+* _javaScript_
+* _jQuery_
 
 ### License
 
